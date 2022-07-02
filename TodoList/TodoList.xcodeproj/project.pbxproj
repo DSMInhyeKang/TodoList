@@ -17,6 +17,8 @@
 		3F9EB6B0286ED35300AC985F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EB6AE286ED35300AC985F /* LaunchScreen.storyboard */; };
 		3F9EB6B8286ED42C00AC985F /* dms_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EB6B7286ED42C00AC985F /* dms_logo.png */; };
 		3F9EB6BD286EDCCD00AC985F /* 스크린샷 2022-07-01 오후 4.41.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9EB6BC286EDCCD00AC985F /* 스크린샷 2022-07-01 오후 4.41.09.png */; };
+		3F9EB6C32870401400AC985F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EB6C22870401400AC985F /* SignUpVC.swift */; };
+		3F9EB6C52870402900AC985F /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9EB6C42870402900AC985F /* LogInVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		3F9EB6B1286ED35300AC985F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9EB6B7286ED42C00AC985F /* dms_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dms_logo.png; sourceTree = "<group>"; };
 		3F9EB6BC286EDCCD00AC985F /* 스크린샷 2022-07-01 오후 4.41.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2022-07-01 오후 4.41.09.png"; sourceTree = "<group>"; };
+		3F9EB6C22870401400AC985F /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3F9EB6C42870402900AC985F /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		77A90B1E7CCA0018CF26A8A2 /* Pods_TodoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D730FE5644731EEE893461E /* Pods-TodoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoList.release.xcconfig"; path = "Target Support Files/Pods-TodoList/Pods-TodoList.release.xcconfig"; sourceTree = "<group>"; };
 		C5A43996EC0A71E5069EF155 /* Pods-TodoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoList.debug.xcconfig"; path = "Target Support Files/Pods-TodoList/Pods-TodoList.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				3F9EB6A4286ED35100AC985F /* ViewController.swift */,
+				3F9EB6C42870402900AC985F /* LogInVC.swift */,
+				3F9EB6C22870401400AC985F /* SignUpVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -217,8 +223,10 @@
 			files = (
 				3F9EB6A5286ED35100AC985F /* ViewController.swift in Sources */,
 				3F9EB6A1286ED35100AC985F /* AppDelegate.swift in Sources */,
+				3F9EB6C52870402900AC985F /* LogInVC.swift in Sources */,
 				3F9EB6A3286ED35100AC985F /* SceneDelegate.swift in Sources */,
 				3F9EB6AB286ED35100AC985F /* TodoList.xcdatamodeld in Sources */,
+				3F9EB6C32870401400AC985F /* SignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
